@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header {
+  background-color: rgba(235, 114, 208, 0.651);
+  color: #0070f3;
+  height: 75px;
+}
+.header-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 35px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Links ke beech mein space */
+}
+
+.footer-link {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Hover karne par underline */
+}
